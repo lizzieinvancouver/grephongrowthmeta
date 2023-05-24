@@ -1,0 +1,26 @@
+Started 24 May 2023
+By Lizzie to start, with Britany Wu and Frederik Baumgarten also likely editing
+
+Goal: go through all the Grephon articles (here: https://github.com/lizzieinvancouver/grephon/tree/main/articles) and use figures/tables/text from the paper to try to extract information that could help us compare values of growth across different studies. 
+
+Columns:
+paperid: first author’s last name then year (no spaces please)
+who_entered: your name or initials
+lat: latitude of where measurements happened
+lon: longitude of where measurements happened
+elevation: elevation of where measurements happened
+prov.lat: if the plant material comes from another provenance, enter that latitude info here; otherwise NA
+prov.lon: if the plant material comes from another provenance, enter that longitude info here; otherwise NA
+treatment: if there is treatment (drought, heat, etc.) then enter here; otherwise NA
+species: give the species name (genus and species epithet)
+method: what is the way the measure growth? You should start a list here of options. I can imagine things like: yearly ring width, biomass, height, intra-annual ring width
+growth_value: the growth value they give (should be numbers only)
+growth_units: what units are the growth values in?
+notes: any notes you have on the study
+
+One row for each unique growth value (similar to EGRET). 
+
+Converting to decimal lat/lon when needed:
+https://www.fcc.gov/media/radio/dms-decimal
+
+If you find you have more than a couple papers you cannot enter then start another csv file to list papers you could not enter any data for and why. Include paperid, who_entered and then a 'notes' column to explain. 

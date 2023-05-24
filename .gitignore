@@ -1,0 +1,16 @@
+*.RData
+*.Rda
+*.rds
+*.rda
+*.Rds
+*.Rhistory
+*.Rapp.history
+
+*.DS_Store
+*.docx
+*.doc
+
+*synctex.gz
+*.log
+*.aux
+*.blg
